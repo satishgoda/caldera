@@ -1,0 +1,80 @@
+#usda 1.0
+(
+    "usd file created with the example script from the caldera data set."
+    endTimeCode = 900
+    framesPerSecond = 30
+    metersPerUnit = 0.0254
+    startTimeCode = 0
+    subLayers = [
+        @s:\sgoda\data\usd\caldera\caldera_overrides_st_map_o_deactivate_players_breadcrumbs_roof_inviz.usda@
+    ]
+    timeCodesPerSecond = 30
+    upAxis = "Z"
+)
+
+over "world"
+{
+    over "mp_wz_island"
+    {
+        over "mp_wz_island_paths"
+        {
+            over "mp_wz_island_geo"
+            {
+                over "map_arsenal" (
+                    variants = {
+                        string districtLod = "full"
+                    }
+                )
+                {
+                }
+
+                over "st_main"
+                {
+                    over "st_b" (
+                        variants = {
+                            string districtLod = "full"
+                        }
+                    )
+                    {
+                    }
+
+                    over "st_o" (
+                        variants = {
+                            string districtLod = "proxy"
+                        }
+                    )
+                    {
+                        token visibility = "invisible"
+                    }
+                }
+
+                over "map_tile_b" (
+                    variants = {
+                        string districtLod = "full"
+                    }
+                )
+                {
+                }
+
+                over "map_capital" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                    token visibility = "invisible"
+                }
+
+                over "map_tile_o" (
+                    variants = {
+                        string districtLod = "proxy"
+                    }
+                )
+                {
+                    token visibility = "invisible"
+                }
+            }
+        }
+    }
+}
+
