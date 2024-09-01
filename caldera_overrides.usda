@@ -1,0 +1,586 @@
+#usda 1.0
+(
+    "usd file created with the example script from the caldera data set."
+    endTimeCode = 900
+    framesPerSecond = 30
+    metersPerUnit = 0.0254
+    startTimeCode = 0
+    subLayers = [
+        @/Users/Shared/pdata/usd_caldera/caldera/caldera.usda@
+    ]
+    timeCodesPerSecond = 30
+    upAxis = "Z"
+)
+
+over "players" (
+    active = false
+)
+{
+}
+
+over "world"
+{
+    over "mp_wz_island"
+    {
+        over "info_player_start_4" (
+            active = false
+        )
+        {
+        }
+
+        over "mp_wz_island_lighting" (
+            active = false
+        )
+        {
+        }
+
+        over "mp_wz_island_skybox" (
+            active = false
+        )
+        {
+        }
+
+        over "map_redeploy" (
+            active = false
+        )
+        {
+        }
+
+        over "mp_wz_island_audio" (
+            active = false
+        )
+        {
+        }
+
+        over "mp_wz_island_s4_cfx" (
+            active = false
+        )
+        {
+        }
+
+        over "mp_wz_island_paths"
+        {
+            over "script_origin_110" (
+                active = false
+            )
+            {
+            }
+
+            over "script_brushmodel_1" (
+                active = false
+            )
+            {
+            }
+
+            over "mp_tdm_spawn_axis_start_13" (
+                active = false
+            )
+            {
+            }
+
+            over "mp_tdm_spawn_allies_start_14" (
+                active = false
+            )
+            {
+            }
+
+            over "mp_dm_spawn_15" (
+                active = false
+            )
+            {
+            }
+
+            over "mp_tdm_spawn_16" (
+                active = false
+            )
+            {
+            }
+
+            over "mp_global_intermission_17" (
+                active = false
+            )
+            {
+            }
+
+            over "trigger_hurt_45" (
+                active = false
+            )
+            {
+            }
+
+            over "trigger_multiple_48" (
+                active = false
+            )
+            {
+            }
+
+            over "physicsbroadphase_52" (
+                active = false
+            )
+            {
+            }
+
+            over "trigger_multiple_83" (
+                active = false
+            )
+            {
+            }
+
+            over "script_struct_96_pf3c29768d6db5ee0e_auto3126" (
+                active = false
+            )
+            {
+            }
+
+            over "script_struct_97_camera_intro" (
+                active = false
+            )
+            {
+            }
+
+            over "script_struct_101_nuke_expl_pos_" (
+                active = false
+            )
+            {
+            }
+
+            over "trigger_multiple_103" (
+                active = false
+            )
+            {
+            }
+
+            over "map_minimapcorners" (
+                active = false
+            )
+            {
+            }
+
+            over "mp_wz_island_geo"
+            {
+                over "volume_vista_20" (
+                    active = false
+                )
+                {
+                }
+
+                over "volume_terraincollision_177" (
+                    active = false
+                )
+                {
+                }
+
+                over "map_upv_grid" (
+                    active = false
+                )
+                {
+                    over "umbra_parameter_volume_180" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_182" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_184" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_186" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_188" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_190" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_192" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_194" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_196" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_198" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_200" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_202" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_204" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_206" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_208" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "umbra_parameter_volume_210" (
+                        active = false
+                    )
+                    {
+                    }
+                }
+
+                over "occlusion"
+                {
+                    over "worldspawn" (
+                        active = false
+                    )
+                    {
+                    }
+                }
+
+                over "map_outofbounds" (
+                    active = false
+                )
+                {
+                }
+
+                over "dsv_full_grid_01" (
+                    active = false
+                )
+                {
+                    token visibility = "inherited"
+                }
+
+                over "map_lightgrid_render_bounds" (
+                    active = false
+                )
+                {
+                }
+
+                over "map_broken_atm" (
+                    active = false
+                )
+                {
+                }
+
+                over "map_dropbags" (
+                    active = false
+                )
+                {
+                }
+
+                over "map_trade_stations" (
+                    active = false
+                )
+                {
+                }
+
+                over "mv_intel" (
+                    active = false
+                )
+                {
+                }
+
+                over "st_main"
+                {
+                    token visibility = "inherited"
+
+                    over "volume_terraincutout_2" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_3" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_7" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_9" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_11" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_13" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_15" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_17" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_19" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_21" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_23" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_25" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_27" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_29" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_31" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_33" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_35" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_37" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_39" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_41" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_43" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_45" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_47" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_49" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_51" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_53" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_55" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_57" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_59" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_61" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_63" (
+                        active = false
+                    )
+                    {
+                    }
+
+                    over "volume_terraincutout_66" (
+                        active = false
+                    )
+                    {
+                    }
+                }
+
+                over "map_compass_callouts" (
+                    active = false
+                )
+                {
+                }
+
+                over "map_vista"
+                {
+                    token visibility = "invisible"
+                }
+
+                over "map_gulags"
+                {
+                    token visibility = "invisible"
+                }
+
+                over "first_circle_marker_01" (
+                    active = false
+                )
+                {
+                    token visibility = "invisible"
+                }
+
+                over "map_plunder_extracts"
+                {
+                    token visibility = "invisible"
+                }
+
+                over "map_airplane_triggers"
+                {
+                    token visibility = "invisible"
+                }
+
+                over "map_vehicle_spawns"
+                {
+                    token visibility = "invisible"
+                }
+
+                over "map_loot_zones" (
+                    active = false
+                )
+                {
+                    token visibility = "invisible"
+                }
+
+                over "map_kiosks"
+                {
+                    token visibility = "invisible"
+                }
+
+                over "map_exfil_ch3"
+                {
+                    token visibility = "invisible"
+                }
+
+                over "map_infil_ch3"
+                {
+                    token visibility = "invisible"
+                }
+            }
+        }
+    }
+}
+
