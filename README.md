@@ -1,3 +1,5 @@
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/satishgoda/caldera)
+
 # Caldera
 
 ![Header](images/header.png)
